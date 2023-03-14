@@ -1,0 +1,106 @@
+.mainslide {
+    display: flex;
+}
+.slideContainer {
+    display: flex;
+    height: 400px;
+    background: #222;
+}
+.slideContainer .slideView {
+    width: 70%;
+}
+.slideContainer .slideList {
+    width: 30%;
+}
+.slideContainer .slideList img {
+    width: 100%;
+}
+.tab-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.tab-content >  div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+.tab-content .tab-content1 {
+    background: url("../../public/assets/002.jpg") center center / cover ;
+}
+.tab-content .tab-content2 {
+    background: url("../../public/assets/002.jpg") center center / cover ;
+}
+.tab-content .tab-content3 {
+    background: url("../../public/assets/002.jpg") center center / cover ;
+}
+.tab-content .tab-content4 {
+    background: url("../../public/assets/002.jpg") center center / cover ;
+}
+.tab-content .tab-content5 {
+    background: url("../../public/assets/001.jpg") center center / cover ;
+}
+.content_text {
+    position: absolute;
+    bottom : 50px;
+    left: 50px;
+    font-size: 28px;
+    width: 80%;
+    line-height: 1.2;
+}
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom , rgba(0,0,0,0) , rgba(0,0,0,0.8));
+}
+.slideList ul {
+    height: 100%;
+}
+.slideList ul li {
+    height:  20%;
+    display: flex;
+}
+.slideList ul li .img {
+    width: 40%;
+}
+.slideList ul li .text{
+    width: 60%;
+    color: #fff;
+    font-size: 12px;
+}
+.slideList ul li img {
+    height: 80%;
+    width: auto;
+}
+.highbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.highbox_title {
+    border-bottom: 8px solid red;
+    border-left: 4px solid red;
+    width: 100%;
+}
+.highbox_title h2 {
+    padding-left: 10px ;
+}
+.highbox_main {
+    padding-top: 40px;
+}
+.highbox_list {
+    width: 100%;
+}
+.highbox_list ul {
+    width: 100%;
+}
+.highbox_list ul li {
+    
+}
+.highbox_main .img{
+    width: 20%;
+}

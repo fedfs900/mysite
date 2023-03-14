@@ -28,7 +28,7 @@ header {
     padding-right: 15px;
     padding-left: 15px;
 }
-ul {
+header ul {
     display: flex;
     align-items: center;
     list-style-type: disc;
