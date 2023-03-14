@@ -2,6 +2,7 @@ import React from 'react';
 import Highlight from './main/Highlight';
 import NewSlid from './main/NewSlid';
 import './Main.css';
+import NewsNews from './main/NewsNews';
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
                     <div className='main_left'>
                         <NewSlid/>
                         <Highlight/>
+                        <NewsNews/>
                     </div>
                     <div className='main_right'>
                         
