@@ -87,7 +87,7 @@
     font-weight: bold;
 }
 .highbox_title {
-    border-bottom: 8px solid red;
+    border-bottom: 6px solid red;
     border-left: 4px solid red;
     width: 100%;
 }
@@ -111,7 +111,13 @@
     justify-content: space-between;
 }
 .highbox_list li {
-    width: 22%
+    width: 24%;
+    height: 50%;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px #d9d9d9;
 }
 .highbox_main ul li img{
     width: 100%;
@@ -123,7 +129,7 @@
     padding-top: 80px;
 }
 .newsbox_title {
-    border-bottom: 8px solid red;
+    border-bottom: 6px solid red;
     border-left: 4px solid red;
     width: 100%;
 }
@@ -163,3 +169,18 @@
     font-weight: bold;
 }
 
+.mininews_title {
+    border-bottom: 6px solid red;
+    border-left: 4px solid red;
+    width: 100%;
+}
+.mininews_title h4 {
+    padding-left: 10px ;
+}
+.mininews_main {
+    padding-top: 20px;
+}
+.mininews_main h6 {
+    color: #F75A69;
+    font-size: 14px;
+}

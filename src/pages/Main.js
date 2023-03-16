@@ -3,6 +3,7 @@ import Highlight from './main/Highlight';
 import NewSlid from './main/NewSlid';
 import './Main.css';
 import NewsNews from './main/NewsNews';
+import MiniHigh from './right/MiniHigh';
 
 const Main = () => {
     return (
@@ -15,7 +16,7 @@ const Main = () => {
                         <NewsNews/>
                     </div>
                     <div className='main_right'>
-                        
+                        <MiniHigh/>
                     </div>
                 </div>
             </div>
