@@ -4,6 +4,8 @@ import NewSlid from './main/NewSlid';
 import './Main.css';
 import NewsNews from './main/NewsNews';
 import MiniHigh from './right/MiniHigh';
+import MiniNews from './right/MiniNews';
+import SideNotice from './right/SideNotice';
 
 const Main = () => {
     return (
@@ -17,6 +19,8 @@ const Main = () => {
                     </div>
                     <div className='main_right'>
                         <MiniHigh/>
+                        <MiniNews/>
+                        <SideNotice/>
                     </div>
                 </div>
             </div>
